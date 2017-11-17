@@ -1,0 +1,8 @@
+# Intellij
+.idea/
+prog/ProgrammingChallenge.iml
+*.iws
+
+# Maven
+log/
+target/
