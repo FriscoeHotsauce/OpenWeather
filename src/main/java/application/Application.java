@@ -30,6 +30,7 @@ public class Application {
             System.out.println("Api key invalid!");
             return;
         }
+        //System.out.println(weatherInfo);
 
         //If we've not encountered an error, proceed to informing our user about the temperature in their area.
         System.out.printf("The current temperature in " + location+ " is %.2f degrees fahrenheit.\n", weatherInfo.getTemp());

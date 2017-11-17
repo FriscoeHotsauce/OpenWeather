@@ -13,9 +13,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class WeatherDto {
 
     private WeatherMainDto main;
-    private float temp;
 
-    @JsonProperty("application")
+    @JsonProperty("main")
     public WeatherMainDto getMain() {
         return main;
     }
